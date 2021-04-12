@@ -27,5 +27,11 @@ export const QuoteContainer = styled(Row)`
     height: 300px;
     width: 8px;
     background: lightgreen;
+    @media (max-width: 768px) {
+      top: -50px;
+      left: 5%;
+      height: 8px;
+      width: 90%;
+    }
   }
 `;

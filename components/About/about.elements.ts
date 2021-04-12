@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Row, RowColumn } from "../../styles/uielements";
 
 export const AboutContainer = styled(RowColumn)`
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   padding: 100px 0 20px;
   text-align: left;

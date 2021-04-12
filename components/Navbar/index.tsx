@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useMemo } from "react";
+import React, { useContext, useEffect, useMemo, useState } from "react";
 import { Col } from "../../styles/uielements";
 import Logo from "../Logo/Logo";
 import { MenuMobileContainer } from "../Menu/menu.elements";
@@ -12,6 +12,7 @@ import {
   RiSunLine,
   RiMoonFill,
   RiMoonLine,
+  RiMenuFill,
 } from "react-icons/ri";
 
 import { AppCxt } from "../../context/AppCxt";
@@ -26,7 +27,10 @@ const ToggleTheme = () => {
 };
 
 const Navbar = () => {
+  const [mobileMenu, setMobileMenu] = useState(false);
   const { theme, changeTheme } = useAppContext();
+
+  const toggleMenu = () => setMobileMenu(!mobileMenu);
 
   const toggle = useMemo(() => {
     if (theme)
@@ -53,10 +57,11 @@ const Navbar = () => {
     <NavbarContainer>
       <Logo />
       <ToggleContainer>{toggle}</ToggleContainer>
-      <MenuMobile />
+      <MenuMobile active={mobileMenu} toggleMenu={toggleMenu} />
       <Col md={6}>
         <MenuDesktop />
       </Col>
+      <RiMenuFill className="menu-open" onClick={() => toggleMenu()} />
     </NavbarContainer>
   );
 };

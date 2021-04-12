@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Row } from "../../styles/uielements";
+import { Row, RowColumn } from "../../styles/uielements";
 
 export const MenuDesktopContainer = styled(Row)`
   justify-content: space-between;
@@ -8,13 +8,43 @@ export const MenuDesktopContainer = styled(Row)`
   }
 `;
 
-export const MenuMobileContainer = styled(Row)`
+export const MenuMobileContainer = styled.div`
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: calc(100vh-80px);
-  margin-top: 80px;
   display: none;
-  @media (max-width: 768px) {
+  &.active {
+    transform: translatex(0);
+  }
+
+  span {
     display: block;
+  }
+  @media (max-width: 768px) {
+    display: flex;
+    padding: 50px 50px 20px;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    height: 100vh;
+    background: ${(p) => p.theme.green};
+    color: black;
+    width: 60vw;
+    z-index: 2;
+    transform: translatex(100%);
+    transition: all 0.5s ease-in-out;
+    span {
+      padding: 30px 10px;
+      font-size: 40px;
+    }
+
+    .close {
+      cursor: pointer;
+      position: fixed;
+      top: 30px;
+      right: 35px;
+      color: ${(p) => p.theme.background};
+      font-size: 40px;
+    }
   }
 `;

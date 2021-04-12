@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Row } from "../../styles/uielements";
 
 export const HeroContainer = styled(Row)`
+  width: 100%;
   align-items: center;
   background: ${(props) => props.theme.background};
   color: ${(props) => props.theme.color};
@@ -23,9 +24,23 @@ export const HeroContainer = styled(Row)`
   .name {
     color: rgb(254, 72, 141);
   }
+  svg {
+    width: 100%;
+  }
 
   @media (max-width: 768px) {
-    flex-wrap: no-wrap;
+    min-height: 80vh;
+    // flex-wrap: no-wrap;
     flex-direction: column-reverse;
+    // svg {
+    //   width: 100%;
+    // }
+    h1 {
+      padding: 30px 50px 0px;
+      font-size: 70px;
+      line-height: 80px;
+      text-align: center;
+      width: fit-content;
+    }
   }
 `;
