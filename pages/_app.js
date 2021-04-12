@@ -5,6 +5,7 @@ import { useContext, useEffect } from "react";
 import { AppCxt } from "../context/AppCxt";
 import AppContext, { useAppContext } from "../context/AppContext";
 import MainApp from "./_mainApp";
+import { Parallax } from "@react-spring/parallax";
 
 function MyApp({ Component, pageProps }) {
   const { theme } = useAppContext();

@@ -1,0 +1,32 @@
+[
+  {
+    "text": "I'm a Full Stack Developer",
+    "icon": "code",
+    "isTrue": true
+  },
+  {
+    "text": "I live in Miami",
+    "icon": "miami",
+    "isTrue": true
+  },
+  {
+    "text": "I like pizza with pineapple",
+    "icon": "pineapple",
+    "isTrue": false
+  },
+  {
+    "text": "I'm a runner",
+    "icon": "run",
+    "isTrue": true
+  },
+  {
+    "text": "I love solving problems",
+    "icon": "problems",
+    "isTrue": true
+  },
+  {
+    "text": "I go nowhere without GPS",
+    "icon": "gps",
+    "isTrue": true
+  }
+]

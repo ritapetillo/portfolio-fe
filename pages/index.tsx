@@ -6,6 +6,10 @@ import { Container, Main } from "../styles/uielements";
 import { Parallax } from "react-scroll-parallax";
 import Avatar from "../components/Svg/Avatar";
 import About from "../components/About/About";
+import Quote from "../components/Quote";
+import Skills from "../components/Skills";
+import Tecnologies from "../components/Tecnologies";
+import Portfolio from "../components/Portfolio";
 
 export default function Home() {
   return (
@@ -13,7 +17,10 @@ export default function Home() {
       <Container>
         <Navbar />
         <Hero />
+        <Quote />
         <About />
+        <Skills />
+        <Portfolio />
       </Container>
     </Main>
   );

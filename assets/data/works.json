@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Alumnor",
+    "url": "",
+    "imageUrl": "/img/alumnor.png",
+    "github": "",
+    "tecnologies": "Typescript, Node, Express, MongoDB, React, Redux, Styled Components, Socket.io"
+  },
+  {
+    "title": "Prontofarma",
+    "url": "",
+    "imageUrl": "/img/prontofarma.png",
+    "github": "",
+    "tecnologies": "Typescript, Nextjs, Styled Components, Strapi,PostgreSQL,"
+  },
+  {
+    "title": "AirBnb Clone",
+    "url": "",
+    "imageUrl": "/img/airbnb.png",
+    "github": "",
+    "tecnologies": "Javascript, Node, Express, MongoDB, React,"
+  }
+]
