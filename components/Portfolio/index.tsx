@@ -11,9 +11,9 @@ const Portfolio = () => {
         <h2>Latest Works</h2>
       </TitlePortfolio>
       <Row>
-        {works.map((work) => (
+        {works.map((work, i) => (
           <Col sm={12} md={6}>
-            <CardWork work={work} />
+            <CardWork work={work} key={i} />
           </Col>
         ))}
       </Row>

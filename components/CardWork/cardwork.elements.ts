@@ -34,27 +34,29 @@ export const ImageWork = styled.div`
 `;
 
 export const CardHover = styled.div`
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  background: rgba(0, 0, 0, 0);
-  opacity: 0;
-  transition: all 1s ease-in-out;
-  display: flex;
-
-  svg {
+  &.card__hover {
+    height: 100%;
+    width: 100%;
+    position: absolute;
     color: ${(p) => p.theme.green};
-    cursor: pointer;
-    font-size: 50px;
-    margin: 10px;
-    &:hover {
-      color: ${(p) => p.theme.pink};
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    display: flex;
+    svg {
+      color: ${(p) => p.theme.green};
+      cursor: pointer;
+      font-size: 40px;
+      margin: 10px;
+      &:hover {
+        color: ${(p) => p.theme.pink};
+      }
     }
   }
 `;

@@ -17,7 +17,12 @@ const SingleAbout = ({ singleInfo }: ISingleAbout) => {
   const [revealed, setRevealed] = useState(false);
 
   return (
-    <Col sm={12} md={6} onClick={() => setRevealed(!revealed)}>
+    <Col
+      sm={12}
+      md={6}
+      onClick={() => setRevealed(!revealed)}
+      key={singleInfo.icon}
+    >
       <SingleAboutContainer guessed={revealed && !singleInfo.isTrue}>
         {revealed && singleInfo.isTrue ? (
           <AiOutlineCheck style={{ color: "lightgreen" }} />

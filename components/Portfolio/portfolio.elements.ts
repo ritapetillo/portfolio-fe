@@ -37,7 +37,7 @@ export const TitlePortfolio = styled(TitleSkills)`
 
   h2 {
     &:after {
-      left: 0;
+      background: ${(p) => p.theme.green};
     }
   }
 `;

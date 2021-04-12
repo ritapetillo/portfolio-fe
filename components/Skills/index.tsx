@@ -13,8 +13,8 @@ const Skills = () => {
       </TitleSkills>
       <SkillsContainer>
         <Col sm={12}>
-          {skills.map((skill) => (
-            <SingleSkill skill={skill} />
+          {skills.map((skill, i) => (
+            <SingleSkill skill={skill} key={i} />
           ))}
         </Col>
       </SkillsContainer>

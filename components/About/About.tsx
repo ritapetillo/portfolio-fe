@@ -22,8 +22,8 @@ const About = () => {
         </h5>
       </TitleAbout>
       <Row>
-        {data.map((data) => {
-          return <SingleAbout singleInfo={data} />;
+        {data.map((data, i) => {
+          return <SingleAbout singleInfo={data} key={i} />;
         })}
       </Row>
     </AboutContainer>

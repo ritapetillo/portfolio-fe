@@ -4,7 +4,6 @@ import { light, dark } from "../styles/themes";
 import { useContext, useEffect } from "react";
 import { AppCxt } from "../context/AppCxt";
 import AppContext, { useAppContext } from "../context/AppContext";
-import MainApp from "./_mainApp";
 import { Parallax } from "@react-spring/parallax";
 
 function MyApp({ Component, pageProps }) {
@@ -15,7 +14,7 @@ function MyApp({ Component, pageProps }) {
   }, [theme]);
   return (
     <AppContext>
-      <MainApp {...pageProps} Component={Component} />
+      <Component {...pageProps} />
     </AppContext>
   );
 }

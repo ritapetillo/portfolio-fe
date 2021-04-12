@@ -16,6 +16,7 @@ import {
   SiAdobephotoshop,
   SiAdobeillustrator,
   SiAdobexd,
+  SiNextDotJs,
 } from "react-icons/si";
 
 import { Row } from "../../styles/uielements";
@@ -39,6 +40,7 @@ const SingleSkill = ({ skill }: ISingleSkill) => {
           <DiNodejsSmall />
           <DiReact />
           <SiRedux />
+          <SiNextDotJs />
           <SiMongodb />
           <SiPostgresql />
           <DiSass />
