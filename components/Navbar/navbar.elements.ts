@@ -7,6 +7,15 @@ export const NavbarContainer = styled(Row)`
   align-items: center;
   heigth: 80px;
   // position: fixed;
+  .menu-open {
+    cursor: pointer;
+    display: none;
+    @media (max-width: 768px) {
+      display: block;
+      font-size: 35px;
+      margin-right: 10px;
+    }
+  }
 `;
 
 export const ToggleContainer = styled.div`
@@ -22,5 +31,8 @@ export const ToggleContainer = styled.div`
     &:last-of-type {
       font-size: 22px;
     }
+  }
+  @media (max-width: 768px) {
+    font-size: 40px;
   }
 `;

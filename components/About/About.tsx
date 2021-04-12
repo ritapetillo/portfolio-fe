@@ -12,7 +12,7 @@ import data from "../../assets/data/aboutGame.json";
 
 const About = () => {
   return (
-    <AboutContainer>
+    <AboutContainer id="#about">
       <TitleAbout>
         <h2>Something about me</h2>
       </TitleAbout>

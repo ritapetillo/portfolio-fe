@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Row, RowColumn } from "../../styles/uielements";
 
 export const SkillsContainer = styled(RowColumn)`
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   padding: 40px 20px;
   text-align: left;
@@ -15,6 +15,9 @@ export const SkillsContainer = styled(RowColumn)`
     font-weight: 400;
     &:first-of-type{
       margin-top:40px;
+    }
+    @media (max-width:768px){
+      padding-bottom: 0px;
     }
 
     
@@ -55,6 +58,7 @@ margin-top: 100px;
   }
   
   }
+
 `;
 
 export const SingleSkill = styled.div`

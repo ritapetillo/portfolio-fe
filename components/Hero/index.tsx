@@ -14,8 +14,9 @@ const Hero = () => {
       <Col sm={12} md={6}>
         <h1>
           My name is <span className="name">Rita</span>
+          <br />
+          and I make websites!
         </h1>
-        <h1>and I make websites!</h1>
       </Col>
       <Col sm={12} md={6} style={{ textAlign: "center" }}>
         {theme ? <Avatar /> : <AvatarNight />}{" "}
