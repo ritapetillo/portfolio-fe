@@ -30,17 +30,15 @@ export const HeroContainer = styled(Row)`
 
   @media (max-width: 768px) {
     min-height: 80vh;
-    // flex-wrap: no-wrap;
     flex-direction: column-reverse;
-    // svg {
-    //   width: 100%;
-    // }
+
     h1 {
-      padding: 30px 50px 0px;
+      padding: 30px 0px 0px;
       font-size: 70px;
       line-height: 80px;
       text-align: center;
       width: fit-content;
+      margin-left: -10px;
     }
   }
 `;

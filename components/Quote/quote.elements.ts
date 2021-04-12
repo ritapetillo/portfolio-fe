@@ -34,4 +34,10 @@ export const QuoteContainer = styled(Row)`
       width: 90%;
     }
   }
+  @media (max-width: 428px) {
+    margin-bottom: 300px;
+  }
+  @media (max-width: 375px) {
+    margin-bottom: 400px;
+  }
 `;

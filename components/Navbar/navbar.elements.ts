@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Row } from "../../styles/uielements";
 
 export const NavbarContainer = styled(Row)`
+  width: 90vw;
   padding: 20px 0px;
   justify-content: space-between;
   align-items: center;

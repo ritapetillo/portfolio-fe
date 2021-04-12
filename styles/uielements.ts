@@ -11,6 +11,9 @@ export const Container = styled.div`
   max-width: 1440px;
   width: 90vw;
   margin: 0 auto;
+  @media (max-width: 768px) {
+    width: 90vw;
+  }
 `;
 
 interface ICol {
