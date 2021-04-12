@@ -35,7 +35,7 @@ export const MenuMobileContainer = styled.div`
     transition: all 0.5s ease-in-out;
     span {
       padding: 30px 10px;
-      font-size: 40px;
+      font-size: 35px;
     }
 
     .close {
