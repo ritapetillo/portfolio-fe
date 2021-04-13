@@ -63,7 +63,7 @@ const Contacts = () => {
 
   return (
     <>
-      <ContactContainer id="contact">
+      <ContactContainer id="contacts">
         <Col sm={12} md={6}>
           <TitleContact>
             <h2>Contact me</h2>
