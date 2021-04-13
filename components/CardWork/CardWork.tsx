@@ -8,9 +8,7 @@ interface ICardWork {
 }
 const CardWork = ({ work }: ICardWork) => {
   const [hover, setHover] = useState(false);
-  useEffect(() => {
-    console.log(hover);
-  }, [hover]);
+
   return (
     <CardContainer
       onMouseEnter={() => setHover(true)}
@@ -21,8 +19,13 @@ const CardWork = ({ work }: ICardWork) => {
       </ImageWork>
       {/* <h4>{work.title}</h4> */}
       <CardHover className="card__hover">
-        <SiGithub />
-        <AiOutlineLink />
+        <a href={work.github} target="_blank">
+          <SiGithub />
+        </a>
+        <a href={work.url} target="_blank">
+          {" "}
+          <AiOutlineLink />
+        </a>
       </CardHover>
     </CardContainer>
   );

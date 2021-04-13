@@ -3,6 +3,19 @@ import { Row, RowColumn } from "../../styles/uielements";
 
 export const MenuDesktopContainer = styled(Row)`
   justify-content: space-between;
+  span {
+    cursor: pointer;
+    &.hireMe {
+      padding: 8px 15px;
+      background-color: ${(p) => p.theme.green};
+      border-radius: 20px;
+      color: black;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
   @media (max-width: 768px) {
     display: none;
   }
@@ -19,6 +32,16 @@ export const MenuMobileContainer = styled.div`
 
   span {
     display: block;
+    cursor: pointer;
+    &.hireMe {
+      padding: 8px 15px;
+      background-color: ${(p) => p.theme.pink};
+      border-radius: 20px;
+      color: black;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
   }
   @media (max-width: 768px) {
     display: flex;

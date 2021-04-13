@@ -10,6 +10,7 @@ import Quote from "../components/Quote";
 import Skills from "../components/Skills";
 import Tecnologies from "../components/Tecnologies";
 import Portfolio from "../components/Portfolio";
+import Contacts from "../components/Contacts";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Skills />
         <Portfolio />
       </Container>
+      <Contacts />
     </Main>
   );
 }

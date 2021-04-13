@@ -1,23 +1,23 @@
 [
   {
     "title": "Alumnor",
-    "url": "",
+    "url": "https://alumnor.vercel.app/",
     "imageUrl": "/img/alumnor.png",
-    "github": "",
+    "github": "https://github.com/ritapetillo/alumnor-react",
     "tecnologies": "Typescript, Node, Express, MongoDB, React, Redux, Styled Components, Socket.io"
   },
   {
     "title": "Prontofarma",
-    "url": "",
+    "url": "https://prontofarma-nextjs.vercel.app/",
     "imageUrl": "/img/prontofarma.png",
-    "github": "",
+    "github": "https://github.com/ritapetillo/prontofarma-nextjs",
     "tecnologies": "Typescript, Nextjs, Styled Components, Strapi,PostgreSQL,"
   },
   {
     "title": "AirBnb Clone",
-    "url": "",
+    "url": "https://airbnb-front-git-main-ritape.vercel.app/",
     "imageUrl": "/img/airbnb.png",
-    "github": "",
+    "github": "https://github.com/ritapetillo/airbnb-frontEnd",
     "tecnologies": "Javascript, Node, Express, MongoDB, React,"
   }
 ]

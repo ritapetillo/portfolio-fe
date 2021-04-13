@@ -3,6 +3,7 @@ export const light = {
   color: "black",
   pink: "rgb(254, 72, 141)",
   green: "#90EE8F",
+  inputColor: "rgba(233, 233, 233, 0.2)",
 };
 
 export const dark = {
@@ -10,4 +11,5 @@ export const dark = {
   color: "white",
   pink: "rgb(254, 72, 141)",
   green: "#90EE8F",
+  inputColor: "rgba(233, 233, 233, 0.7)",
 };

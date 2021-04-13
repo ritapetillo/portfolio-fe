@@ -8,7 +8,7 @@ import { SkillsContainer, TitleSkills } from "./skills.elements";
 const Skills = () => {
   return (
     <>
-      <TitleSkills id="#skills">
+      <TitleSkills id="skills">
         <h2>What can I do?</h2>
       </TitleSkills>
       <SkillsContainer>

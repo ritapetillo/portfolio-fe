@@ -21,7 +21,11 @@ export const CardContainer = styled.div`
     }
   }
 `;
-export const ImageWork = styled.div`
+interface IImageWork {
+  height?: string;
+  width?: string;
+}
+export const ImageWork = styled.div<IImageWork>`
   height: 280px;
   width: 100%;
   border-radius: 10px 10px 0 0;

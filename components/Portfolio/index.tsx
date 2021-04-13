@@ -6,7 +6,7 @@ import works from "../../assets/data/works.json";
 
 const Portfolio = () => {
   return (
-    <PortfolioContainer id="#portfolio">
+    <PortfolioContainer id="portfolio">
       <TitlePortfolio>
         <h2>Latest Works</h2>
       </TitlePortfolio>
