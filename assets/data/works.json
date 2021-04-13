@@ -8,7 +8,7 @@
   },
   {
     "title": "Prontofarma",
-    "url": "https://prontofarma-nextjs.vercel.app/",
+    "url": "https://www.prontofarmadelivery.com/",
     "imageUrl": "/img/prontofarma.png",
     "github": "https://github.com/ritapetillo/prontofarma-nextjs",
     "tecnologies": "Typescript, Nextjs, Styled Components, Strapi,PostgreSQL,"
